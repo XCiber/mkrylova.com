@@ -1,0 +1,59 @@
+/* Отступ сверху для содержимого body (высота navbar = 50px)*/
+body {
+    /*padding-top: 50px;*/
+}
+
+/* Заставка */
+.splash {
+    /* Отступ для содержимого, помещенного в splash */
+    padding: 1em 0 2em;
+    /* Картинка, которая используются для splash */
+    /*background-image:url(../img/bg.jpg);*/
+    /* Масштабируем картинку с сохранением пропорций */
+    /*background-size:cover;*/
+    /* Запрещаем фоновому изображению прокручиваться, т.е. делаем его неподвижным */
+    /*background-attachment:fixed;*/
+    /* Цвет текста */
+    color: #000;
+    /* Выравниваем текста внутри splash по центру */
+    text-align: center;
+    padding-top: 70px;
+}
+
+@font-face {
+    font-family: "Dubiel";
+    src: url(/fonts/DUBIEL.TTF) format("truetype");
+}
+
+.splash h1 {
+    font-family: "Dubiel", Verdana, Tahoma;
+    font-size: 4em;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.owl-carousel .item{
+    margin: 3px;
+}
+.owl-carousel .item img{
+    display: block;
+    width: auto;
+    height: 300px;
+}
+
+footer {
+    padding-top: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #000000;
+}
