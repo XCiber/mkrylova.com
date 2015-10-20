@@ -1,0 +1,31 @@
+{{ $baseurl := .Site.BaseURL }}
+<div class="row">
+    {{range $index, $page := .Paginator.Pages}}
+    {{ if and (modBool $index 3) (ne 0 $index) }}
+</div>
+<div class="row" align="center">
+    {{ end }}
+    <div class="col-sm-6 col-sm-offset-3 centered">
+        <div>
+            <h3 style="text-shadow: 0 1px 0 #cccccc;"><a href="{{ .Permalink }}">{{.Title}}</a></h3>
+            {{if .Params.banner }} <a href="{{ .Permalink }}"><img src="{{ .Params.banner }}" alt="" style="width: 100%; height: auto;"/></a> {{ end }}
+            <p>
+                {{if .Params.categories }}
+                {{ range $index, $category := .Params.categories }}
+                <a href="{{$baseurl}}/categories/{{ $category | urlize }}/">{{ $category }}</a>
+                {{ end }}
+                {{end}}
+            </p>
+            <p>{{ .Summary }}</p>
+            <p>
+                {{ .Date.Format "2 Jan 2006" }}
+                {{if .Params.tags }}
+                {{ range $index, $tag := .Params.tags }}
+                <a href="{{$baseurl}}/tags/{{ $tag | urlize }}/">#{{ $tag }}</a>
+                {{ end }}
+                {{end}}
+        </div>
+        <hr/>
+    </div>
+    {{ end }}
+</div>

@@ -1,4 +1,4 @@
-baseurl = "http://krylova.kolesnichenko.com/"
+baseurl = "http://localhost:1313"
 languageCode = "en-us"
 title = "MARINA KRYLOVA"
 theme = "vogue"

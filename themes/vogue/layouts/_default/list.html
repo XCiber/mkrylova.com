@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="{{.Site.LanguageCode}}">
+{{ partial "head" . }}
+<body>
+<!-- Навигационное меню -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            {{ partial "nav" . }}
+        </div>
+        <div class="col-sm-12 splash">
+            <!-- Текст, размещенный на заставке -->
+            <h1>{{ .Site.Title }}</h1>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="section">
+
+        {{ partial "content.html" . }}
+
+        {{ partial "pagination.html" .Paginator }}
+
+    </div>
+</div>
+
+{{ partial "footer" . }}
+{{ partial "js" . }}
+
+<script>
+    $('.owl-carousel').owlCarousel({
+        margin: 10,
+        loop:true,
+        autoWidth: true,
+        center: true,
+        autoplay:true,
+        autoplayTimeout:10000,
+        autoplayHoverPause:true
+    });
+</script>
+<script type="text/javascript">
+    $('.gallery-item').magnificPopup({
+        type: 'image',
+        gallery:{
+            enabled:true
+        }
+    });
+</script>
+
+</body>
+</html>
