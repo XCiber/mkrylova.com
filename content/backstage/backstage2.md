@@ -6,6 +6,6 @@ thumbnail = "/img/thumb/02.jpg"
 banner = "/img/main/02.jpg"
 +++
 
-<a href="/img/main/01.jpg" class="gallery-item"><img src="/img/thumb/01.jpg" class="full-width"></a>
-<a href="/img/main/03.jpg" class="gallery-item"><img src="/img/thumb/03.jpg" class="full-width"></a>
-<a href="/img/main/04.jpg" class="gallery-item"><img src="/img/thumb/04.jpg" class="full-width"></a>
+<figure><a href="/img/main/01.jpg" class="gallery-item" title="Title of the photo"><img src="/img/thumb/01.jpg" class="full-width"></a><figcaption></figcaption></figure>
+<figure><a href="/img/main/03.jpg" class="gallery-item" title="Title of the photo"><img src="/img/thumb/03.jpg" class="full-width"></a><figcaption></figcaption></figure>
+<figure><a href="/img/main/04.jpg" class="gallery-item" title="Title of the photo"><img src="/img/thumb/04.jpg" class="full-width"></a><figcaption></figcaption></figure>

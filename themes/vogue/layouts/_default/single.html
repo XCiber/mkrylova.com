@@ -17,7 +17,7 @@
             <div class="row">
                 <div class="col-sm-6 col-sm-offset-3 centered">
                     {{if .Params.banner }}
-                    <a href="{{ .Params.banner }}" class="gallery-item"><img src="{{ if .Params.thumbnail }}{{ .Params.thumbnail }}{{ else }}{{.Params.banner }}{{ end }}" class="full-width"/></a>
+                    <a href="{{ .Params.banner }}" class="gallery-item" {{ with .Description }} title="{{ . }}" {{ end }}><img src="{{ if .Params.thumbnail }}{{ .Params.thumbnail }}{{ else }}{{.Params.banner }}{{ end }}" class="full-width" /></a>
 
                     {{ end }}
 

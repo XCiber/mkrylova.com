@@ -20,18 +20,21 @@
 {{ partial "footer" . }}
 {{ partial "js" . }}
 
-<script>
+<script type="text/javascript">
+    $(document).ready(function($){
+        $('.owl-carousel').css('display', 'block');
+    });
     $('.owl-carousel').owlCarousel({
         margin: 10,
+        image: 1,
+        center: true,
         loop:true,
         autoWidth: true,
-        center: true,
+//        center: true,
         autoplay:true,
-        autoplayTimeout:10000,
+        autoplayTimeout:5000,
         autoplayHoverPause:true
     });
-</script>
-<script type="text/javascript">
     $('.gallery-item').magnificPopup({
         type: 'image',
         gallery:{
