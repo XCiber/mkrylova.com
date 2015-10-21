@@ -17,7 +17,7 @@ body {
     color: #000;
     /* Выравниваем текста внутри splash по центру */
     text-align: center;
-    padding-top: 70px;
+    padding-top: 60px;
 }
 
 @font-face {
@@ -27,7 +27,7 @@ body {
 
 .splash h1 {
     font-family: "Dubiel", Verdana, Tahoma;
-    font-size: 4em;
+    font-size: 2em;
 }
 
 .navbar .navbar-nav {
@@ -46,7 +46,7 @@ body {
 .owl-carousel .item img{
     display: block;
     width: auto;
-    height: 300px;
+    height: 250px;
 }
 
 footer {
@@ -96,14 +96,14 @@ footer a {
     height: auto;
 }
 
-figure {
+.cap figure {
     display: block;
     position: relative;
     float: left;
     overflow: hidden;
     margin: 0 20px 20px 0;
 }
-figcaption {
+.cap figcaption {
     position: absolute;
     background: black;
     background: rgba(0,0,0,0.75);
@@ -114,11 +114,22 @@ figcaption {
     -moz-transition:    all 0.6s ease;
     -o-transition:      all 0.6s ease;
 }
-figure:hover figcaption {
+.cap-fix figcaption {
+    position: absolute;
+    background: black;
+    background: rgba(0,0,0,0.75);
+    color: white;
+    padding: 10px 20px;
+    opacity: 1;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition:    all 0.6s ease;
+    -o-transition:      all 0.6s ease;
+}
+.cap figure:hover figcaption {
     opacity: 1;
 }
-figure:before {
-    content: "?";
+.cap figure:before {
+    content: ">";
     position: absolute;
     font-weight: 800;
     background: black;
@@ -136,7 +147,25 @@ figure:before {
     -moz-transition: all 0.6s ease;
     opacity: 0.75;
 }
-figure:hover:before {
+.cap-fix figure:before {
+    position: absolute;
+    font-weight: 800;
+    background: black;
+    background: rgba(255,255,255,0.75);
+    text-shadow: 0 0 5px white;
+    color: black;
+    width: 24px;
+    height: 24px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius:    12px;
+    border-radius:         12px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    -moz-transition: all 0.6s ease;
+    opacity: 0.75;
+}
+.cap figure:hover:before {
     opacity: 0;
 }
 
@@ -155,3 +184,43 @@ figure:hover:before {
 .cap-bot:before { bottom: 10px; left: 10px; }
 .cap-bot figcaption { left: 0; bottom: -30%;}
 .cap-bot:hover figcaption { bottom: 0; }
+
+.cap-fix:before { top: 10px; right: 10px; }
+.cap-fix figcaption { top: 0; right: 0; }
+.cap-fix:hover figcaption { right: 0; }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
+    .splash h1 {
+        font-family: "Dubiel", Verdana, Tahoma;
+        font-size: 4em;
+    }
+
+    .owl-carousel .item img{
+        height: 500px;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
+    .splash h1 {
+        font-family: "Dubiel", Verdana, Tahoma;
+        font-size: 4em;
+    }
+
+    .owl-carousel .item img{
+        height: 600px;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+    .splash h1 {
+        font-family: "Dubiel", Verdana, Tahoma;
+        font-size: 4em;
+    }
+
+    .owl-carousel .item img{
+        height: 700px;
+    }
+}

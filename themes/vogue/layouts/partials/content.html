@@ -5,10 +5,15 @@
 </div>
 <div class="row" align="center">
     {{ end }}
-    <div class="col-sm-6 col-sm-offset-3 centered">
-        <div>
-            <h3 style="text-shadow: 0 1px 0 #cccccc;"><a href="{{ .Permalink }}">{{.Title}} ({{ .Date.Format "2 Jan 2006" }})</a></h3>
-            {{if .Params.banner }} <a href="{{ .Permalink }}"><img src="{{ .Params.banner }}" alt="" style="width: 100%; height: auto;"/></a> {{ end }}
+    <div class="col-sm-6 col-sm-offset-3 centered cap">
+            <a href="{{ .Permalink }}">
+                <figure class="cap-fix full-width">
+                    {{if .Params.banner }}<img src="{{ .Params.banner }}" class="full-width"/>{{ end }}
+                    <figcaption>{{.Title}} ({{ .Date.Format "2 Jan 2006" }})</figcaption>
+                    <!--<figcatpion>{{.Title}} ({{ .Date.Format "2 Jan 2006" }})</figcatpion>-->
+                    <!--<h3 style="text-shadow: 0 1px 0 #cccccc;">-->
+                </figure>
+            </a>
             <p>
                 {{if .Params.categories }}
                 {{ range $index, $category := .Params.categories }}
@@ -23,7 +28,6 @@
                 <a href="{{$baseurl}}/tags/{{ $tag | urlize }}/">#{{ $tag }}</a>
                 {{ end }}
                 {{end}}
-        </div>
         <hr/>
     </div>
     {{ end }}
