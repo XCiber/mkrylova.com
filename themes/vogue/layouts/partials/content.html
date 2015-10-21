@@ -7,7 +7,7 @@
     {{ end }}
     <div class="col-sm-6 col-sm-offset-3 centered">
         <div>
-            <h3 style="text-shadow: 0 1px 0 #cccccc;"><a href="{{ .Permalink }}">{{.Title}}</a></h3>
+            <h3 style="text-shadow: 0 1px 0 #cccccc;"><a href="{{ .Permalink }}">{{.Title}} ({{ .Date.Format "2 Jan 2006" }})</a></h3>
             {{if .Params.banner }} <a href="{{ .Permalink }}"><img src="{{ .Params.banner }}" alt="" style="width: 100%; height: auto;"/></a> {{ end }}
             <p>
                 {{if .Params.categories }}
@@ -18,7 +18,6 @@
             </p>
             <p>{{ .Summary }}</p>
             <p>
-                {{ .Date.Format "2 Jan 2006" }}
                 {{if .Params.tags }}
                 {{ range $index, $tag := .Params.tags }}
                 <a href="{{$baseurl}}/tags/{{ $tag | urlize }}/">#{{ $tag }}</a>
