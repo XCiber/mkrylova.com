@@ -9,21 +9,21 @@
             <a href="{{ .Permalink }}">
                 <figure class="cap-fix full-width">
                     {{if .Params.banner }}<img src="{{ .Params.banner }}" class="full-width"/>{{ end }}
-                    <figcaption>{{.Title}} ({{ .Date.Format "2 Jan 2006" }})</figcaption>
-                    <!--<figcatpion>{{.Title}} ({{ .Date.Format "2 Jan 2006" }})</figcatpion>-->
-                    <!--<h3 style="text-shadow: 0 1px 0 #cccccc;">-->
+                    <figcaption>{{.Description}} ({{ .Date.Format "2 Jan 2006" }})</figcaption>
                 </figure>
             </a>
             <p>
                 {{if .Params.categories }}
+                Catigories:
                 {{ range $index, $category := .Params.categories }}
                 <a href="{{$baseurl}}/categories/{{ $category | urlize }}/">{{ $category }}</a>
                 {{ end }}
                 {{end}}
             </p>
-            <p>{{ .Summary }}</p>
+            <!--<p>{{ .Summary }}</p>-->
             <p>
                 {{if .Params.tags }}
+                Tags:
                 {{ range $index, $tag := .Params.tags }}
                 <a href="{{$baseurl}}/tags/{{ $tag | urlize }}/">#{{ $tag }}</a>
                 {{ end }}

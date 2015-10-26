@@ -3,6 +3,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {{ .Hugo.Generator }}
+    {{ if .Params.keywords }}
+    <meta name="keywords" content="{{ .Params.keywords }}" />
+    {{ end }}
+    {{ if .Description }}
+    <meta name="Description" content="{{ .Description }}">
+    {{ end }}
     <title>{{ .Title }}</title>
     <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/bootstrap-theme.min.css"/>

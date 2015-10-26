@@ -17,8 +17,12 @@
             <div class="row">
                 <div class="col-sm-6 col-sm-offset-3 centered cap">
                     {{if .Params.banner }}
-                    <a href="{{ .Params.banner }}" class="gallery-item" {{ with .Description }} title="{{ . }}" {{ end }}><img src="{{ if .Params.thumbnail }}{{ .Params.thumbnail }}{{ else }}{{.Params.banner }}{{ end }}" class="full-width" /></a>
-
+                    <div class="thumbnail">
+                        <a href="{{ .Params.banner }}" class="gallery-item" {{ with .Description }} title="{{ . }}" {{ end }}>
+                            <img src="{{ if .Params.thumbnail }}{{ .Params.thumbnail }}{{ else }}{{.Params.banner }}{{ end }}" class="full-width" />
+                        </a>
+                        {{ with .Description }} <h3 align="center">{{ . }}</h3> {{ end }}
+                    </div>
                     {{ end }}
 
                     {{ .Content }}

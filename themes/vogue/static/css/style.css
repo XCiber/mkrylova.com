@@ -40,6 +40,12 @@ body {
     height: 250px;
 }
 
+.owl-inner .item img{
+    display: block;
+    width: auto;
+    height: 250px;
+}
+
 footer {
     padding-top: 20px;
     text-align: center;
@@ -197,6 +203,10 @@ footer a {
     .owl-carousel .item img{
         height: 400px;
     }
+
+    .carousel-inner .item img{
+        height: 400px;
+    }
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -216,6 +226,10 @@ footer a {
     .owl-carousel .item img{
         height: 400px;
     }
+
+    .carousel-inner .item img{
+        height: 400px;
+    }
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -228,4 +242,13 @@ footer a {
     .owl-carousel .item img{
         height: 500px;
     }
+
+    .carousel-inner .item img{
+        height: 500px;
+    }
+
+}
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
 }
