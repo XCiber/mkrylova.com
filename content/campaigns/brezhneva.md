@@ -1,10 +1,10 @@
 +++
 date = "2015-10-20T21:51:27+03:00"
-description = "Вера Брежнева для Pe for Girls & Ruban"
-title = "Вера Брежнева"
+description = "Vera Brezhneva for Pe for Girls & Ruban"
+title = "Vera Brezhneva"
 thumbnail = "/img/campaigns/peforgirls/brezhneva/01.jpg"
 banner = "/img/campaigns/peforgirls/brezhneva/01.jpg"
-tags = ["Pe for Girls", "Ruban", "Вера Брежнева"]
+tags = ["Pe for Girls", "Ruban", "Vera Brezhneva"]
 +++
 
 <div class="thumbnail">
