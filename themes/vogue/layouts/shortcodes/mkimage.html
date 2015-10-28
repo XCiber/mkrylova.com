@@ -1,0 +1,5 @@
+<div class="thumbnail">
+    <a {{ with .Get "src" }}href="{{.}}"{{ end }} class="gallery-item">
+        <img {{ with .Get "src" }}src="{{.}}"{{ end }} class="full-width">
+    </a>
+</div>

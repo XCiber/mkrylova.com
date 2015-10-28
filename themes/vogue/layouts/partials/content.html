@@ -5,11 +5,12 @@
 </div>
 <div class="row" align="center">
     {{ end }}
-    <div class="col-sm-6 col-sm-offset-3 centered cap">
+    <div class="col-sm-6 col-sm-offset-3 centered">
             <a href="{{ .Permalink }}">
-                <figure class="cap-fix full-width">
+                <h2 align="center">{{.Title}}</h2>
+                <figure class="full-width">
                     {{if .Params.banner }}<img src="{{ .Params.banner }}" class="full-width"/>{{ end }}
-                    <figcaption>{{.Description}} ({{ .Date.Format "2 Jan 2006" }})</figcaption>
+                    <!--<figcaption>{{.Description}} ({{ .Date.Format "2 Jan 2006" }})</figcaption>-->
                 </figure>
             </a>
             <p>

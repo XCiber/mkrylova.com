@@ -13,12 +13,17 @@ body {
     padding: 0em 0 0em;
     color: #000;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 40px;
 }
 
 .splash h1 {
     font-family: "Dubiel", Verdana, Tahoma;
     font-size: 2em;
+}
+
+.splash h2 {
+    font-family: "Dubiel", Verdana, Tahoma;
+    font-size: 1.5em;
 }
 
 .navbar .navbar-nav {
@@ -201,12 +206,9 @@ footer a {
     }
 
     .owl-carousel .item img{
-        height: 400px;
+        height: 350px;
     }
 
-    .carousel-inner .item img{
-        height: 400px;
-    }
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -227,9 +229,6 @@ footer a {
         height: 400px;
     }
 
-    .carousel-inner .item img{
-        height: 400px;
-    }
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -240,15 +239,27 @@ footer a {
     }
 
     .owl-carousel .item img{
-        height: 500px;
-    }
-
-    .carousel-inner .item img{
-        height: 500px;
+        height: 400px;
     }
 
 }
 
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1600px) {
+    .splash h1 {
+        font-family: "Dubiel", Verdana, Tahoma;
+        font-size: 6em;
+    }
+
+    .owl-carousel .item img{
+        height: 600px;
+    }
+
+}
+
+
+/*
 .dropdown:hover > .dropdown-menu {
     display: block;
 }
+*/

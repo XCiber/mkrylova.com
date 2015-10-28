@@ -1,5 +1,9 @@
 #baseurl = "http://127.0.0.1:1313"
 baseurl = "http://krylova2.kolesnichenko.com"
 languageCode = "en-us"
-title = "MARINA KRYLOVA Photography"
+title = "MARINA KRYLOVA"
 theme = "vogue"
+
+[params]
+    subtitle = "PHOTOGRAPHY"
+

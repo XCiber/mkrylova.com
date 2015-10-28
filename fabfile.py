@@ -35,9 +35,15 @@ def deploy_xserve():
 	unpak_xserve()
 
 # deploy to main server
-def deploy():
+def deploy_git():
 	prepare_deploy()
 	with lcd("public"):
 		local('git add --all .')
 		local('git commit -m "Site update"')
 		local('git push')
+
+def deploy():
+	prepare_deploy()
+	local('rsync -avz -e ssh --progress --delete public/ xserve:~/krylova.com/')
+	sudo('rsync -avz -delete krylova.com/ /var/www/krylova2/public_html/')
+	sudo('chown -R www-data:root /var/www/krylova2')
