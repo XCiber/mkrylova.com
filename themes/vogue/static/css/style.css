@@ -26,6 +26,11 @@ body {
     font-size: 1.5em;
 }
 
+.splash h3 {
+    font-family: "Dubiel", Verdana, Tahoma;
+    font-size: 1.5em;
+}
+
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
@@ -289,6 +294,17 @@ footer a {
         font-size: 3em;
     }
 
+    .splash h2 {
+        font-family: "Dubiel", Verdana, Tahoma;
+        font-size: 2em;
+    }
+
+    .splash h3 {
+        font-family: "Dubiel", Verdana, Tahoma;
+        font-size: 1.5em;
+    }
+
+
     .owl-carousel .item img {
         height: 400px;
         width: auto;
@@ -303,6 +319,17 @@ footer a {
         font-size: 5em;
     }
 
+    .splash h2 {
+        font-family: "Dubiel", Verdana, Tahoma;
+        font-size: 3em;
+    }
+
+    .splash h3 {
+        font-family: "Dubiel", Verdana, Tahoma;
+        font-size: 2em;
+    }
+
+
     .owl-carousel .item img {
         height: 400px;
         width: auto;
@@ -315,6 +342,16 @@ footer a {
     .splash h1 {
         font-family: "Dubiel", Verdana, Tahoma;
         font-size: 6em;
+    }
+
+    .splash h2 {
+        font-family: "Dubiel", Verdana, Tahoma;
+        font-size: 4em;
+    }
+
+    .splash h3 {
+        font-family: "Dubiel", Verdana, Tahoma;
+        font-size: 3em;
     }
 
     .owl-carousel .item img {

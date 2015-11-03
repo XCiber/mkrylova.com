@@ -1,8 +1,8 @@
 +++
 date = "2015-10-20T21:51:27+03:00"
 title = "Matt Irvin for Crocus City Mall"
-thumbnail = "/img/backstages/crocus/43.jpg"
-banner = "/img/backstages/crocus/43.jpg"
+thumbnail = "/img/backstages/crocus/50.jpg"
+banner = "/img/backstages/crocus/50.jpg"
 tags = ["Matt Irvin", "Crocus City Mall", "Irina Vodolazova"]
 categories = ["Backstages"]
 +++

@@ -44,6 +44,6 @@ def deploy_git():
 
 def deploy():
 	prepare_deploy()
-	local('rsync -avz -e ssh --progress --delete public/ xserve:~/krylova.com/')
+	local('rsync -avz -e ssh --progress --delete public/ xserve.kolesnichenko.com:~/krylova.com/')
 	sudo('rsync -avz -delete krylova.com/ /var/www/krylova2/public_html/')
 	sudo('chown -R www-data:root /var/www/krylova2')

@@ -1,8 +1,8 @@
 +++
 date = "2015-10-20T21:51:27+03:00"
 title = "Gluk`oZa"
-thumbnail = "/img/backstages/glukoza/01.jpg"
-banner = "/img/backstages/glukoza/01.jpg"
+thumbnail = "/img/backstages/glukoza/12.jpg"
+banner = "/img/backstages/glukoza/12.jpg"
 tags = ["Buro 24/7", "Gluk`oZa"]
 categories = ["Backstages"]
 +++
