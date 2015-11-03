@@ -27,14 +27,13 @@
     });
     $('.owl-carousel').owlCarousel({
         margin: 10,
-        image: 1,
+        items: 1,
+        loop: true,
+//        autoWidth: true,
         center: true,
-        loop:true,
-        autoWidth: true,
-//        center: true,
-        autoplay:true,
-        autoplayTimeout:5000,
-        autoplayHoverPause:true
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoplayHoverPause: true
     });
     $('.gallery-item').magnificPopup({
         type: 'image',

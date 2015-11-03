@@ -1,10 +1,3 @@
-Водочку)
-http://www.buro247.ru/events/photo-reports/10683.html
- 
- 
-Караулыча , все кроме последнего лука( в looks)
-http://www.trendspace.ru/moda/16033/
- 
  
 Бутко (в looks)
 без сандалий 
