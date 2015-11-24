@@ -1,8 +1,8 @@
 +++
 date = "2015-11-24T21:51:27+03:00"
 title = "ALEXANDER ARUTYUNOV"
-thumbnail = "/img/backstages/arutyunov/03.jpg"
-banner = "/img/backstages/arutyunov/03.jpg"
+thumbnail = "/img/backstages/arutyunov/13.jpg"
+banner = "/img/backstages/arutyunov/13.jpg"
 tags = ["arutyunov"]
 categories = ["Backstages"]
 +++

@@ -1,8 +1,8 @@
 +++
 date = "2015-11-24T21:51:27+03:00"
 title = "YANINA HOUTE COUTURE"
-thumbnail = "/img/backstages/yanina/03.jpg"
-banner = "/img/backstages/yanina/03.jpg"
+thumbnail = "/img/backstages/yanina/07.jpg"
+banner = "/img/backstages/yanina/07.jpg"
 tags = ["Yanina"]
 categories = ["Backstages"]
 +++

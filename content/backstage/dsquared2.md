@@ -1,8 +1,8 @@
 +++
 date = "2015-11-24T21:51:27+03:00"
 title = "DSQUARED2"
-thumbnail = "/img/backstages/dsquared2/02.jpg"
-banner = "/img/backstages/dsquared2/02.jpg"
+thumbnail = "/img/backstages/dsquared2/04.jpg"
+banner = "/img/backstages/dsquared2/04.jpg"
 tags = ["dsquared2"]
 categories = ["Backstages"]
 +++
