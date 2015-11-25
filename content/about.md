@@ -1,26 +1,18 @@
 +++
 date = "2015-10-20T21:51:27+03:00"
 description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
-title = "About"
-banner = "/img/thumb/01.jpg"
+title = "BIO"
+banner = "/img/marina.jpg"
 +++
 
-# Header 1
+{{<mkimage src="/img/marina.jpg">}}
+Photographer Marina Krylova received an art education at the Moscow State Stroganov Academy of Industrial and Applied Arts. At age 18, she was fascinated by photography, while shooting on the film camera by her grandfather. She continued an  education in photography at the Moscow Rodchenko school of photography and multimedia art.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Soon she began a career as celebrity/social events photographer. During several years Marina has become one of the leading photographers in this field and a regular contributor for such magazines as Tatler, Glamour, GQ, Allure and the contemporary news website [www.buro247.ru](http://www.buro247.ru/). 
 
-# Header 2
+Among Marina's loyal clients such companies as Louis Vuitton, Chanel, Mercury, Christian Louboutin, Breguet, J.Point, TSUM, Podium, KIA, CosMoscow, Yanina, RUBAN, The Andrey Fomin Production, RSVP Agency.
 
-## Header 3
+Marina Krylova is the official Fashion and Theatre backstage photographer of the  M.A.C. Cosmetics in Russia.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+In addition, Marina Krylova is a regular photographer for the charity events of the Naked Heart Foundation by Natalia Vodyanova. 
+Marina successfully developed in the genre of fashion-photography and regularly works for the following companies: [Aizel.ru](http://aizel.ru/), Ververa for Pe for girls, Masterpiece, Fashion Incubator #1

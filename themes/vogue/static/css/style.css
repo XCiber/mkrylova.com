@@ -67,6 +67,10 @@ footer {
     text-align: center;
 }
 
+a {
+    color: black;
+}
+
 footer a {
     color: #000000;
 }
