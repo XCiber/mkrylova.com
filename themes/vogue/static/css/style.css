@@ -367,6 +367,15 @@ footer a {
 }
 */
 
+a {
+    color: black;
+}
+
+a:hover, a:focus {
+    color: grey;
+    text-decoration: underline;
+}
+
 #cloud a.tag1 {
     font-size: 0.7em;
     font-weight: 100;
