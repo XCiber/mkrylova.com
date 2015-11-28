@@ -11,3 +11,4 @@ tags = ["Elena Konchalovskaya", "look"]
 {{<mkimage src="/img/looks/ekonchalovskaya/04.jpg">}}
 {{<mkimage src="/img/looks/ekonchalovskaya/05.jpg">}}
 {{<mkimage src="/img/looks/ekonchalovskaya/06.jpg">}}
+{{<mkimage src="/img/looks/ekonchalovskaya/07.jpg">}}
