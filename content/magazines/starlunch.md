@@ -1,9 +1,9 @@
 +++
 date = "2015-11-26T21:51:27+03:00"
-title = "Star Lunch"
-thumbnail = "/img/magazines/starlunch/01.jpg"
-banner = "/img/magazines/starlunch/01.jpg"
-tags = [ "Star Lunch" ]
+title = "Star Lunch Glamour Russia"
+thumbnail = "/img/magazines/starlunch/03.jpg"
+banner = "/img/magazines/starlunch/03.jpg"
+tags = [ "Star Lunch", "Glamour" ]
 categories = [ "Magazines" ]
 +++
 
