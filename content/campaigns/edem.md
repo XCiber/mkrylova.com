@@ -1,8 +1,8 @@
 +++
 date = "2016-04-15T15:17:27+03:00"
 title = "Edem Wedding Couture"
-thumbnail = "/img/campaigns/edem/01.jpg"
-banner = "/img/campaigns/edem/01.jpg"
+thumbnail = "/img/campaigns/edem/03.jpg"
+banner = "/img/campaigns/edem/03.jpg"
 tags = ["Edem Wedding Couture"]
 +++
 

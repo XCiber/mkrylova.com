@@ -1,5 +1,5 @@
 +++
-date = "2015-11-24T21:51:27+03:00"
+date = "2016-04-18T12:13:27+03:00"
 title = "YANINA HOUTE COUTURE"
 thumbnail = "/img/backstages/yanina/07.jpg"
 banner = "/img/backstages/yanina/07.jpg"
