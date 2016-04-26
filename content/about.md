@@ -2,10 +2,10 @@
 date = "2015-10-20T21:51:27+03:00"
 description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
 title = "BIO"
-banner = "/img/marina2.jpg"
+banner = "/img/marina.jpg"
 +++
 
-{{<mkimage src="/img/marina2.jpg">}}
+{{<mkimage src="/img/marina.jpg">}}
 Photographer Marina Krylova received an art education at the Moscow State Stroganov Academy of Industrial and Applied Arts. At age 18, she was fascinated by photography, while shooting on the film camera by her grandfather. She continued an  education in photography at the Moscow Rodchenko school of photography and multimedia art.
 
 Soon she began a career as celebrity/social events photographer. During several years Marina has become one of the leading photographers in this field and a regular contributor for such magazines as Tatler, Glamour, GQ, Allure and the contemporary news website [www.buro247.ru](http://www.buro247.ru/). 

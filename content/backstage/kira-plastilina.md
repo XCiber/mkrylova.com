@@ -1,6 +1,6 @@
 +++
 date = "2015-10-20T21:51:27+03:00"
-title = "LUBLU Kira Plastinina sring/summer 2013"
+title = "LUBLU Kira Plastinina"
 thumbnail = "/img/backstages/kira-plastinina/23.jpg"
 banner = "/img/backstages/kira-plastinina/23.jpg"
 tags = ["Kira Plastinina"]

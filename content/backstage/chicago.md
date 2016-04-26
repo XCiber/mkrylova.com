@@ -1,8 +1,8 @@
 +++
 date = "2016-04-15T15:02:27+03:00"
 title = "CHICAGO"
-thumbnail = "/img/backstages/chicago/01.jpg"
-banner = "/img/backstages/chicago/01.jpg"
+thumbnail = "/img/backstages/chicago/11.jpg"
+banner = "/img/backstages/chicago/11.jpg"
 tags = ["chicago"]
 categories = ["Backstages"]
 +++

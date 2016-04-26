@@ -1,9 +1,9 @@
 +++
 date = "2016-04-18T11:39:27+03:00"
-title = "Liza Mamik"
+title = "Liza Mamiashvili"
 thumbnail = "/img/looks/mamik/03.jpg"
 banner = "/img/looks/mamik/03.jpg"
-tags = ["Liza Mamik", "look"]
+tags = ["Liza Mamiashvili", "look"]
 +++
 
 {{<mkimage src="/img/looks/mamik/01.jpg">}}
