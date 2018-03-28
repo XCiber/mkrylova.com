@@ -43,6 +43,7 @@ def deploy_git():
 		local('git push')
 
 def deploy():
+	env.hosts = ['xserve.kolesnichenko.com']
 	prepare_deploy()
 	local('rsync -avz -e ssh --progress --delete public/ xserve.kolesnichenko.com:~/krylova.com/')
 	sudo('rsync -avz -delete krylova.com/ /var/www/krylova2/public_html/')
